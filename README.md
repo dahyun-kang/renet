@@ -7,12 +7,12 @@
 </div>
 
 <div align="center">
-  <h4> <a href=http://arxiv.org>:link:paper</a>, <a href=http://cvlab.postech.ac.kr/research/RENet>:link:project hompage</a></h4>
+  <h4> <a href=http://arxiv.org>[paper]</a>, <a href=http://cvlab.postech.ac.kr/research/RENet>[project hompage]</a></h4>
 </div>
 
 
 <div align="center">
-  <img src="assets/teaser.png" alt="teaser">
+  <img src="assets/teaser.png" width="64%" alt="teaser">
 </div>
 
 <p align="justify">
