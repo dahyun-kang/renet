@@ -47,12 +47,13 @@ bash download_cifar_fs.sh
 bash download_tieredimagenet.sh
 ```
 
-## :deciduous_tree: Authors' checkpoints (_will be available soon_)
+## :deciduous_tree: Authors' checkpoints
 
 ```bash
-bash scripts/download_renet_checkpoints.sh
+cd checkpoints
+bash download_checkpoints_renet.sh
 ```
-The file structure should be as following:
+The file structure should be as follows:
 
 
     
@@ -74,21 +75,25 @@ The file structure should be as following:
     
    
 ## :pushpin: Quick start: testing scripts
-To test the downloaded model on _DATASET_ in an 5-way _K_-shot setting:
-    
-    bash scripts/test/DATASET_5wKs.sh
-For example, to test the 5-way 1-shot model on miniImagenet:
-
-    bash scripts/test/miniimagenet_5w1s.sh
-
+Testing on _DATASET_ in the 5-way _K_-shot setting is as follows:
+```bash
+bash scripts/test/DATASET_5wKs.sh
+```
+For example, testing RENet on the miniImagenet dataset in the 5-way 1-shot setting is as follows:
+```bash
+bash scripts/test/miniimagenet_5w1s.sh
+```
 
 ## :fire: Training scripts
-To train a model on _DATASET_ in an 5-way _K_-shot setting:
-    
-    bash scripts/train/DATASET_5wKs.sh
-For example, to train the 5-way 1-shot model on CUB:
+Training on _DATASET_ in the 5-way _K_-shot setting is as follows:
+```bash
+bash scripts/train/DATASET_5wKs.sh
+```
+For example, testing RENet on the CUB dataset in the 5-way 1-shot setting is as follows:
+```bash
+bash scripts/train/cub_5w1s.sh
+```
 
-    bash scripts/train/cub_5w1s.sh
 
 Training & testing a 5-way 1-shot model on the CUB dataset using a TitanRTX 3090 GPU takes **41m 30s**.
 
@@ -150,9 +155,9 @@ Our project references the codes in the following repos:
 * Huang _et al_., [DCCNet](https://github.com/ShuaiyiHuang/DCCNet)
 * Yang _et al_., [VCN](https://github.com/gengshan-y/VCN)
 
-## :pray: Acknowledgement
-We appreciate the authors of [DeepEMD](https://github.com/icoz69/DeepEMD) where we adopt the major code bases.
-We also sincerely thank all the ICCV reviewers, especially R#2, for suggestions and valuable pointers :love_letter:. 
+## :love_letter: Acknowledgement
+We adopted the main code bases from [DeepEMD](https://github.com/icoz69/DeepEMD), and we really appreciate it :smiley:.
+We also sincerely thank all the ICCV reviewers, especially R#2, for valuable suggestions. 
 
 
 ## :scroll: Citing RENet
