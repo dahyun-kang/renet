@@ -75,21 +75,21 @@ The file structure should be as follows:
     
    
 ## :pushpin: Quick start: testing scripts
-Testing on _DATASET_ in the 5-way _K_-shot setting is as follows:
+To test in the 5-way K-shot setting:
 ```bash
-bash scripts/test/DATASET_5wKs.sh
+bash scripts/test/{dataset_name}_5wKs.sh
 ```
-For example, testing RENet on the miniImagenet dataset in the 5-way 1-shot setting is as follows:
+For example, to test ReNet on the miniImagenet dataset in the 5-way 1-shot setting:
 ```bash
 bash scripts/test/miniimagenet_5w1s.sh
 ```
 
 ## :fire: Training scripts
-Training on _DATASET_ in the 5-way _K_-shot setting is as follows:
+To train in the 5-way K-shot setting:
 ```bash
-bash scripts/train/DATASET_5wKs.sh
+bash scripts/train/{dataset_name}_5wKs.sh
 ```
-For example, testing RENet on the CUB dataset in the 5-way 1-shot setting is as follows:
+For example, to test ReNet on the CUB dataset in the 5-way 1-shot setting:
 ```bash
 bash scripts/train/cub_5w1s.sh
 ```
