@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-  <h4> <a href=http://arxiv.org>[paper]</a>, <a href=http://cvlab.postech.ac.kr/research/RENet>[project hompage]</a></h4>
+  <h4> <a href=https://arxiv.org/abs/2108.09666>[paper]</a>, <a href=http://cvlab.postech.ac.kr/research/RENet>[project hompage]</a></h4>
 </div>
 
 
