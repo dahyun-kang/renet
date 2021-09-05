@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Relational Embedding for Few-Shot Classification (ICCV 2021)</h1>
+  <h1>Relational Embedding for Few-Shot Classification <br> (ICCV 2021)</h1>
 </div>
 
 <div align="center">
