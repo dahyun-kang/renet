@@ -148,7 +148,7 @@ We also sincerely thank all the ICCV reviewers, especially R#2, for valuable sug
 
 ## :scroll: Citing RENet
 If you find our code or paper useful to your research work, please consider citing our work using the following bibtex:
-```
+```bibtex
 @inproceedings{kang2021renet,
     author   = {Kang, Dahyun and Kwon, Heeseung and Min, Juhong and Cho, Minsu},
     title    = {Relational Embedding for Few-Shot Classification},
